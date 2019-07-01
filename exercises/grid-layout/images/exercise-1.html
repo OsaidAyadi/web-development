@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+	<title>Css Grid Layout</title>
+
+
+
+
+<style type="text/css">
+	
+.cont {
+display: grid;
+grid-template-columns: 1fr 1fr ;
+grid-template-rows: 50% 50%;
+grid-auto-rows: minmax(200px, auto);
+
+
+}
+
+h2{
+	display: block;
+	padding: 100px;
+	margin: 0px;
+}
+
+</style>
+
+</head>
+
+
+<body>
+<div class="cont" >
+	<div >
+		<h2 style="background-color:aqua; color:white;">Tweets</h2>
+	</div>
+<!-- //////////////////////// -->
+	<div>
+		<h2 style="background-color:yellow; color:white;">Replies</h2>
+	</div>
+<!-- //////////////////////// -->
+	<div>
+		<h2 style="background-color:#2559; color:white;">Search</h2>
+	</div>
+<!-- //////////////////////// -->
+	<div>
+		<h2 style="background-color:blue; color:white;">Messages</h2>
+	</div>	
+
+
+
+</div>
+
+</body>
+</html>
